@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Tiro+Devanagari+Hindi&display=swap');
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.Title-Text{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.Title-Subtext{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.Title{
+  font-family: 'Mali', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Button-Container{
+  display: flex;
+  flex-direction: row;
+}
+a{
+  text-decoration: none;
+}
+.Link-Button{
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50px;
+  width: fit-content;
+  background-color: lightskyblue;
+  transition: 250ms ease;
+}
+.Link-Button:hover{
+  background-color: #4a7ae8;
+  color:white
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#submit{
+  border-style: none;
+  background-color: skyblue;
+  font-family: 'Mali', serif;
+}

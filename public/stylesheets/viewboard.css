@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Tiro+Devanagari+Hindi&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#Viewboard-Wrapper{
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+#Viewboard-Title{
+    font-family: 'Mali', serif;
+    font-size: 75px;
+}
+#Viewboard-Text{
+    font-family: 'Mali', serif;
+    font-size: 20px;
+}
+#Viewboard-id{
+    font-family:'Mali', serif;
+    font-size: 20px;
+    margin-left: 80%;
+}
+#Viewboard-Next{
+    font-size: 20px;
+    background-color: white;
+    border-style: none;
+    font-family: 'Mali', serif;
+    transition: 0.25s ease-in-out;
+}
+#Viewboard-Bottom{
+    display: flex;
+    justify-content: left;
+}
+#Viewboard-Next:hover{
+    transform: translateY(-10px);
+}
