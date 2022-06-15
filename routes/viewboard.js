@@ -6,11 +6,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 
 router.use(body_parser.urlencoded({urlencoded:true}));
 
-//Mongoose
-//const mongodb_uri = "mongodb+srv://tiomarello:mardjohan1016@cluster0.bylnl.mongodb.net/MessageBoard?retryWrites=true&w=1";
-//mongoose.connect(mongodb_uri);
-//const mongo_connection = mongoose.connection;
-//const database = mongo_connection.collection('messages');
+
 
 router.get('/', function(req,res){
     res.render('viewboard');
